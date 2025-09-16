@@ -91,8 +91,7 @@ cinema-night/
 - Add search filter functionality
 - Implement login/register forms
 - Improve accessibility & keyboard navigation
-
-Use lazy loading for better performance
+- Use lazy loading for better performance
 
 ##📜 License
 This project is licensed under the MIT License — see the LICENSE file for details.
