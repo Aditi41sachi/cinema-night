@@ -40,34 +40,24 @@ cinema-night/
 ````
 
 ## 🖼️ Images
-- **Hero Section** → `assets/images/hero.jpg` *(replace with your own image)*  
-- **Movie Cards** → `assets/images/card1.jpg`, `card2.jpg`, … *(Unsplash demo images used)*  
-- **News Cards** → `assets/images/news1.jpg`, `news2.jpg`, … *(Unsplash demo images used)*
+- **Hero Section**
+  - https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2000&auto=format&fit=crop
 
-# Project Images
+- **Movie Cards**
+  - https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1512132411229-c30391241dd7?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1548607086-e7ef42d18084?q=80&w=1600&auto=format&fit=crop
 
-## 🎬 Hero Background
-![Hero Background](https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2000&auto=format&fit=crop)
-
----
-
-## 🎥 Movie Cards
-![Bright](https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1600&auto=format&fit=crop)  
-![Star Wars: The Last Jedi](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=1600&auto=format&fit=crop)  
-![Blade Runner 2049](https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1600&auto=format&fit=crop)  
-![Arrival](https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1600&auto=format&fit=crop)  
-![Joker](https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1600&auto=format&fit=crop)  
-![Dune](https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1600&auto=format&fit=crop)  
-![Interstellar](https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1600&auto=format&fit=crop)  
-![Inception](https://images.unsplash.com/photo-1512132411229-c30391241dd7?q=80&w=1600&auto=format&fit=crop)  
-![Tenet](https://images.unsplash.com/photo-1548607086-e7ef42d18084?q=80&w=1600&auto=format&fit=crop)
-
----
-
-## 📰 News Section
-![News 1](https://images.unsplash.com/photo-1503342217505-b0a15cf70489?q=80&w=1600&auto=format&fit=crop)  
-![News 2](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop)  
-![News 3](https://images.unsplash.com/photo-1497032205916-ac775f0649ae?q=80&w=1600&auto=format&fit=crop)
+- **News Section**
+  - https://images.unsplash.com/photo-1503342217505-b0a15cf70489?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop
+  - https://images.unsplash.com/photo-1497032205916-ac775f0649ae?q=80&w=1600&auto=format&fit=crop
 
 ---
 
