@@ -48,21 +48,15 @@ cinema-night/
 
 ## ⚙️ Installation
 1. **Clone the repository**
-
- ```bash
+   ```bash
    git clone https://github.com/yourusername/cinema-night.git
-
+   ```
 2. **Navigate to the project folder**
-
- ```bash
-   cd cinema-night
-Open index.html in your browser (Chrome, Firefox, or Edge).
-
-3. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+    cd cinema-night
+   ```
+3. **Open the project**
+    Simply open index.html in your browser (Chrome, Firefox, or Edge).
 
 ## ▶️ Steps to Run
 - If downloaded as .zip, extract the cinema-night.zip
@@ -85,3 +79,6 @@ Use lazy loading for better performance
 
 ##📜 License
 This project is licensed under the MIT License — see the LICENSE file for details.
+
+........
+
