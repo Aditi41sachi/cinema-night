@@ -37,11 +37,7 @@ cinema-night/
 ├── LICENSE 
 └── README.md 
 
-
-yaml
-Copy code
-
----
+````
 
 ## 🖼️ Images
 - **Hero Section** → `assets/images/hero.jpg` *(replace with your own image)*  
@@ -51,15 +47,22 @@ Copy code
 ---
 
 ## ⚙️ Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/cinema-night.git
-Navigate to the project folder:
+1. **Clone the repository**
 
-bash
-Copy code
-cd cinema-night
+ ```bash
+   git clone https://github.com/yourusername/cinema-night.git
+
+2. **Navigate to the project folder**
+
+ ```bash
+   cd cinema-night
 Open index.html in your browser (Chrome, Firefox, or Edge).
+
+3. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
 
 ## ▶️ Steps to Run
 - If downloaded as .zip, extract the cinema-night.zip
