@@ -3,6 +3,9 @@
 ![Website](https://img.shields.io/badge/Website-HTML_CSS_JS-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![HTML](https://img.shields.io/badge/Code-HTML5-orange)
+![CSS](https://img.shields.io/badge/Style-CSS3-blue)
+![JavaScript](https://img.shields.io/badge/Logic-JavaScript-yellow)
 
 ---
 
