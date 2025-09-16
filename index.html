@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cinema Night — Discover Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="page-backdrop"></div>
+
+    <main class="mainframe">
+      <header class="app-header glass" role="banner" aria-label="Primary">
+        <div class="brand">filmography.</div>
+        <nav class="main-nav" aria-label="Main">
+          <a href="#" class="active">Films</a>
+          <a href="#">Serials</a>
+          <a href="#">Games</a>
+          <a href="#">Cinema Repertory</a>
+          <a href="#">TV Program</a>
+          <a href="#">Magazine</a>
+        </nav>
+        <div class="auth-actions">
+          <button class="btn btn-ghost">Log in</button>
+          <button class="btn btn-primary">Register</button>
+        </div>
+      </header>
+
+      <section class="hero" aria-label="Discover">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-headline">
+          <h1>Find <span class="accent">perfect</span> movie for evening</h1>
+        </div>
+
+        <form class="search glass" role="search" aria-label="Movie search" onsubmit="return false;">
+          <div class="search-field">
+            <span class="icon" aria-hidden="true">🔎</span>
+            <input id="query" name="q" type="search" placeholder="What film are you looking for?" autocomplete="off" />
+          </div>
+          <div class="search-filter">
+            <label class="visually-hidden" for="genre">Genre</label>
+            <select id="genre" name="genre">
+              <option value="">Kind</option>
+              <option>Action</option>
+              <option>Adventure</option>
+              <option>Drama</option>
+              <option>Sci‑Fi</option>
+              <option>Thriller</option>
+            </select>
+          </div>
+          <button class="btn btn-strong" type="submit">Give me this!</button>
+        </form>
+
+        <aside class="side-rail" aria-label="Slider controls">
+          <div class="rail-label">Premieres &amp; Selections</div>
+          <button class="rail-btn" id="rail-prev" aria-label="Previous group">❮</button>
+          <div class="rail-indicator"><span id="rail-index">01</span>/<span id="rail-total">03</span></div>
+          <button class="rail-btn" id="rail-next" aria-label="Next group">❯</button>
+        </aside>
+      </section>
+
+      <section class="carousel" aria-label="Top of the last week">
+        <div class="carousel-header">
+          <h2>Top of the last week</h2>
+          <p class="sub">The most discussed movies of last week</p>
+        </div>
+        <div class="cards-viewport" id="cardsViewport">
+          <div class="cards-track" id="cardsTrack" style="--index:0">
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Bright</h3>
+                <div class="meta">1 h 57 min · Action</div>
+                <p>Set in a world where mystical creatures live side-by-side with humans.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Star Wars: The Last Jedi</h3>
+                <div class="meta">2 h 32 min · Sci‑Fi</div>
+                <p>Rey develops her powers with the guidance of Luke Skywalker.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Blade Runner 2049</h3>
+                <div class="meta">2 h 43 min · Neo‑Noir</div>
+                <p>A young blade runner unearths a long-buried secret.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Arrival</h3>
+                <div class="meta">1 h 56 min · Sci‑Fi</div>
+                <p>A linguist works with the military to communicate with aliens.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1505685296765-3a2736de412f?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Joker</h3>
+                <div class="meta">2 h 2 min · Drama</div>
+                <p>Arthur Fleck's descent into madness and the rise of Joker.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Dune</h3>
+                <div class="meta">2 h 35 min · Adventure</div>
+                <p>Paul Atreides leads nomads in a battle to control the desert planet.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Interstellar</h3>
+                <div class="meta">2 h 49 min · Sci‑Fi</div>
+                <p>Explorers travel through a wormhole in space to ensure humanity's survival.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1512132411229-c30391241dd7?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Inception</h3>
+                <div class="meta">2 h 28 min · Thriller</div>
+                <p>A thief steals corporate secrets through dream-sharing technology.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1548607086-e7ef42d18084?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Tenet</h3>
+                <div class="meta">2 h 30 min · Action</div>
+                <p>An operative manipulates the flow of time to prevent World War III.</p>
+                <a class="more" href="#">More →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="news" aria-label="Editorial">
+        <h2>Straight from the horse's mouth</h2>
+        <div class="news-grid">
+          <a class="news-card" href="#"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1503342217505-b0a15cf70489?q=80&w=1600&auto=format&fit=crop');"></div><span class="tag">read article</span></a>
+          <a class="news-card" href="#"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop');"></div><span class="tag">read article</span></a>
+          <a class="news-card" href="#"><div class="img" style="background-image:url('https://images.unsplash.com/photo-1497032205916-ac775f0649ae?q=80&w=1600&auto=format&fit=crop');"></div><span class="tag">read article</span></a>
+        </div>
+      </section>
+    </main>
+
+    <div class="right-ribbon" aria-hidden="true"><span>All movies</span></div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
